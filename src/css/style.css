@@ -1,0 +1,97 @@
+body {
+    /* background: url('../images/bg-desktop.svg') hsl(257, 40%, 49%) no-repeat;
+    width: 1440px;
+    height: 800px; */
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    min-height: 800px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section {
+    background: url('../images/bg-desktop.svg') hsl(257, 40%, 49%) no-repeat;
+    width: 1440px;
+    height: 800px;
+    padding: 50px 60px;
+    margin-top: 5%;
+}
+
+.section .logo {
+    margin-bottom: 80px
+}
+
+.section .logo img {
+    width: 230px
+}
+
+.section .item {
+    display: flex;
+}
+
+.section .item .image-central {
+    margin-right: 40px;
+}
+
+.section .descricao {
+    padding: 50px 0px;
+    color: #FFF;
+}
+
+.section .descricao h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    /* max-width: 400px; */
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.section .descricao p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.section .descricao a.botao-register:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #FFFFFF;
+}
+
+.section .descricao a.botao-register {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    padding: 15px 60px;
+    font-weight: 400;
+    background-color: #FFF;
+    color: hsl(257, 40%, 49%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px;
+    transition: 0.3s;
+}
+
+footer {
+    /* margin-left: 85%; */
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redes-sociais a .fab {
+    color: #fff;
+    font-size: 20px;
+    border: 1.5px solid;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.redes-sociais a:hover .fab {
+    color: hsl(300, 69%, 71%);
+}
